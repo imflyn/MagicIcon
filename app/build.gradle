@@ -18,6 +18,11 @@ android {
         }
     }
 }
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://maven.google.com" }
+}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

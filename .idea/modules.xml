@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MagicIcon.iml" filepath="$PROJECT_DIR$/MagicIcon.iml" />
+      <module fileurl="file://C:\User\Development\workspace_temp\MagicIcon\MagicIcon.iml" filepath="C:\User\Development\workspace_temp\MagicIcon\MagicIcon.iml" />
       <module fileurl="file://C:\Users\Flyn\Desktop\MagicIcon\TestImage.iml" filepath="C:\Users\Flyn\Desktop\MagicIcon\TestImage.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\User\Development\workspace_temp\MagicIcon\app\app.iml" filepath="C:\User\Development\workspace_temp\MagicIcon\app\app.iml" />
     </modules>
   </component>
 </project>

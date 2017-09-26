@@ -9,6 +9,8 @@ import android.support.v7.graphics.Palette;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -49,7 +51,7 @@ public class ImageActivity extends AppCompatActivity {
                 image1.setImageResource(result ? R.drawable.icon_back_white : R.drawable.icon_back_black);
                 image2.setImageResource(result ? R.drawable.nav_icon_cart_white : R.drawable.nav_icon_cart_black);
 
-//                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(RGBValues));
+                setStatusBarColor(RGBValues);
             }
         });
 
@@ -98,4 +100,9 @@ public class ImageActivity extends AppCompatActivity {
         return color;
     }
 
+    private void setStatusBarColor(int statusColor) {
+        Window window = getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.setStatusBarColor(statusColor);
+    }
 }
